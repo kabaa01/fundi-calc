@@ -1,0 +1,294 @@
+{
+ "version": 1,
+ "checked": "2026-11-23",
+ "note": "Edit this file to update the rules. The app loads it when online. Run tools/sync-rules.mjs to also save a copy inside index.html.",
+ "rules": [
+  {
+   "id": "wiring-cert",
+   "t": [
+    "cable",
+    "solar",
+    "pump",
+    "build"
+   ],
+   "k": "Law",
+   "w": 1,
+   "x": "Only an electrician or contractor with an EPRA licence may wire your building. When the work is done, they give you three papers: start of work, end of work and test results. Kenya Power needs these before it connects you.",
+   "x_sw": "Ni fundi au mkandarasi mwenye leseni ya EPRA pekee anayeruhusiwa kuweka waya kwenye jengo lako. Kazi ikikamilika, anakupa karatasi tatu: kuanza kazi, kumaliza kazi na matokeo ya vipimo. Kenya Power inazihitaji kabla ya kukuunganishia umeme.",
+   "s": "Kenya Power: new connections",
+   "u": "https://kplc.co.ke/faq/new-connections"
+  },
+  {
+   "id": "check-licence",
+   "t": [
+    "cable",
+    "solar",
+    "pump",
+    "build",
+    "inst"
+   ],
+   "k": "Law",
+   "x": "Before you pay a fundi, check his EPRA licence class and number. Kenya Power links to the EPRA list of licensed contractors.",
+   "x_sw": "Kabla ya kumlipa fundi, angalia daraja na nambari ya leseni yake ya EPRA. Kenya Power inaelekeza wateja kwenye orodha ya EPRA ya wakandarasi wenye leseni.",
+   "s": "Kenya Power: new connections",
+   "u": "https://kplc.co.ke/faq/new-connections"
+  },
+  {
+   "id": "kebs-mark",
+   "t": [
+    "cable",
+    "shop",
+    "build"
+   ],
+   "k": "Standard",
+   "x": "Buy cables, sockets and breakers that have the KEBS S-mark sticker. KEBS has said you can SMS the code under the mark to 20023 to check it. Confirm the current way on kebs.org. Selling goods that fail the standard is against the law.",
+   "x_sw": "Nunua kebo, soketi na vivunja mzunguko vyenye stika ya alama ya KEBS (S-mark). KEBS imesema unaweza kutuma kwa SMS msimbo ulio chini ya alama hiyo kwenda 20023 kuukagua. Thibitisha njia ya sasa kwenye kebs.org. Kuuza bidhaa zisizofikia kiwango ni kinyume cha sheria.",
+   "s": "Nairobi News: KEBS marks",
+   "u": "https://nairobinews.nation.africa/hundreds-of-fake-portable-socket-outlets-impounded/"
+  },
+  {
+   "id": "sockets",
+   "t": [
+    "cable",
+    "shop"
+   ],
+   "k": "Standard",
+   "x": "Sockets must meet the standard KS EAS 495. In 2025 KEBS seized thousands of extension sockets that did not. They can shock people or start fires.",
+   "x_sw": "Soketi lazima zikidhi kiwango cha KS EAS 495. Mwaka 2025 KEBS ilikamata maelfu ya soketi za nyongeza zisizokidhi. Zinaweza kushtua watu au kusababisha moto.",
+   "s": "The Star: KEBS seizure",
+   "u": "https://www.the-star.co.ke/news/2025-07-10-kebs-seizes-16-tonne-unsafe-sockets"
+  },
+  {
+   "id": "ks-list",
+   "t": [
+    "cable",
+    "inst",
+    "build"
+   ],
+   "k": "Standard",
+   "w": 1,
+   "x": "Ask your fundi which Kenya Standards he follows. Examples are KS 194 for PVC cables, KS EAS 811 for safe electrical work and the Kenya wiring regulations, KS 662. KEBS sells the full texts. This app’s cable sizes follow the published BS 7671 tables that KS 662 is built on, but only your licensed contractor can design your wiring.",
+   "x_sw": "Muulize fundi wako anafuata Viwango vipi vya Kenya. Mifano ni KS 194 kwa kebo za PVC, KS EAS 811 kwa kazi salama ya umeme na kanuni za uwekaji waya za Kenya, KS 662. KEBS inauza maandishi kamili. Ukubwa wa kebo wa programu hii unafuata majedwali ya BS 7671 yaliyochapishwa ambayo KS 662 imejengwa juu yake, lakini ni mkandarasi wako mwenye leseni pekee anayeweza kubuni uwekaji waya wako.",
+   "s": "KEBS list of standards",
+   "u": "https://www.kebs.org/wp-content/uploads/2023/09/Approved_list_of_Standards_SAC_April_2018.pdf"
+  },
+  {
+   "id": "ks662-draft",
+   "t": [
+    "cable",
+    "inst",
+    "build"
+   ],
+   "k": "Standard",
+   "w": 1,
+   "x": "KEBS asked the public for comments on draft updates of the Kenya wiring standard KS 662 from 12 March to 15 May 2026. The draft follows IEC 60364 and BS 7671. It is not final yet, so the current KS 662 still applies until KEBS replaces it.",
+   "x_sw": "KEBS iliomba umma utoe maoni kuhusu rasimu za marekebisho ya kiwango cha uwekaji waya cha Kenya, KS 662, kuanzia 12 Machi hadi 15 Mei 2026. Rasimu inafuata IEC 60364 na BS 7671. Bado si ya mwisho, kwa hivyo KS 662 ya sasa inaendelea kutumika hadi KEBS ibadilishe.",
+   "s": "KEBS: draft KS 662, Part 5 (public review)",
+   "u": "https://www.kebs.org/wp-content/uploads/2026/03/DKS-662-5-2026-PRD.pdf"
+  },
+  {
+   "id": "pv-licence",
+   "t": [
+    "solar",
+    "pump",
+    "inst"
+   ],
+   "k": "Law",
+   "x": "Anyone who designs, fits, sells or services solar systems needs an EPRA solar licence. Ask for the number and check it.",
+   "x_sw": "Mtu yeyote anayebuni, kufunga, kuuza au kuhudumia mifumo ya solar anahitaji leseni ya solar ya EPRA. Omba nambari na uikague.",
+   "s": "Kenyans.co.ke: EPRA licence notice",
+   "u": "https://www.kenyans.co.ke/news/124509-epra-issues-new-licensing-notice-solar-contractors-manufacturers-and-vendors"
+  },
+  {
+   "id": "grid-export",
+   "t": [
+    "solar",
+    "inst"
+   ],
+   "k": "Law",
+   "x": "Send extra solar power into the Kenya Power line only if you have a net-metering agreement, a two-way meter and an EPRA-licensed installer. Extra power you send is paid as a 50% credit, not cash. Sending power without approval is now called dumping and can be charged. EPRA set this out in a notice in September 2026.",
+   "x_sw": "Tuma umeme wa ziada wa solar kwenye laini ya Kenya Power tu ikiwa una mkataba wa net-metering, mita ya njia mbili na mfungaji mwenye leseni ya EPRA. Umeme wa ziada unaotuma hulipwa kama mkopo wa 50%, si pesa taslimu. Kutuma umeme bila idhini sasa kunaitwa dumping na kunaweza kutozwa ada. EPRA ilieleza hili kwenye tangazo la Septemba 2026.",
+   "s": "pv magazine: Kenya solar export charges",
+   "u": "https://www.pv-magazine.com/2026/09/22/kenya-backdates-solar-export-charges-by-over-a-year/"
+  },
+  {
+   "id": "swh",
+   "t": [
+    "solar",
+    "build",
+    "inst",
+    "shop"
+   ],
+   "k": "Law",
+   "w": 1,
+   "x": "Since 9 July 2025, every new building must have a place and a plan for a solar water heater in its drawings. The county checks this when it approves plans. Everyone in the trade had to be fully licensed by July 2026. Only licensed people may sell or fit these heaters. They must give you a written design before they start, and a warranty of at least five years on the panels and tank.",
+   "x_sw": "Tangu 9 Julai 2025, kila jengo jipya lazima liwe na nafasi na mpango wa hita ya maji ya jua kwenye michoro yake. Kaunti inakagua hili inapoidhinisha michoro. Kila mtu katika biashara hii alipaswa kuwa na leseni kamili kufikia Julai 2026. Ni watu wenye leseni pekee wanaoruhusiwa kuuza au kufunga hita hizi. Lazima wakupe muundo ulioandikwa kabla ya kuanza, na dhamana ya angalau miaka mitano kwa paneli na tangi.",
+   "s": "Solar Water Heating Regulations, 2025 (Legal Notice 115)",
+   "u": "https://new.kenyalaw.org/akn/ke/act/ln/2025/115/eng@2025-07-09"
+  },
+  {
+   "id": "nbc",
+   "t": [
+    "build",
+    "solar"
+   ],
+   "k": "Law",
+   "w": 1,
+   "x": "A new National Building Code started on 1 March 2025. It replaced the old 1968 rules. It covers saving energy and water, for example solar panels and rain water tanks. Some parts are optional. NCA and the county check that you follow it.",
+   "x_sw": "Kanuni mpya ya Kitaifa ya Ujenzi ilianza tarehe 1 Machi 2025. Ilibadilisha sheria za zamani za 1968. Inahusu kuokoa nishati na maji, kwa mfano paneli za jua na matangi ya maji ya mvua. Baadhi ya sehemu ni za hiari. NCA na kaunti hukagua kama unaifuata.",
+   "s": "NCA: National Building Code 2024",
+   "u": "https://www.nca.go.ke/whole-story/NWSJAN160834"
+  },
+  {
+   "id": "nca-inspect",
+   "t": [
+    "build"
+   ],
+   "k": "Law",
+   "x": "NCA checks building sites. From July 2025 to April 2026 it suspended 12,018 of the 21,282 sites it inspected. Keep your approved plans and your engineer and contractor papers on site.",
+   "x_sw": "NCA hukagua maeneo ya ujenzi. Kuanzia Julai 2025 hadi Aprili 2026 ilisimamisha maeneo 12,018 kati ya 21,282 iliyokagua. Weka michoro yako iliyoidhinishwa na karatasi za mhandisi na mkandarasi eneo la kazi.",
+   "s": "The Standard: building collapses and NCA checks",
+   "u": "https://www.standardmedia.co.ke/national/article/2001562394/we-can-no-longer-wait-architects-demand-action-on-building-collapses"
+  },
+  {
+   "id": "ebk",
+   "t": [
+    "build",
+    "pump"
+   ],
+   "k": "Law",
+   "x": "A registered engineer must design building work and watch over it. EBK lets anyone check an engineer on its public list. Any change on site needs the engineer’s written approval.",
+   "x_sw": "Mhandisi aliyesajiliwa lazima abuni kazi ya ujenzi na aisimamie. EBK humruhusu yeyote kumkagua mhandisi kwenye orodha yake ya umma. Mabadiliko yoyote eneo la kazi yanahitaji idhini iliyoandikwa ya mhandisi.",
+   "s": "Eastleigh Voice: EBK warning",
+   "u": "https://eastleighvoice.co.ke/national/256917/ebk-warns-nairobi-developers-hire-registered-engineers-after-westlands-failure"
+  },
+  {
+   "id": "nca",
+   "t": [
+    "build",
+    "inst"
+   ],
+   "k": "Law",
+   "w": 1,
+   "x": "Building contractors must be registered with NCA. For electrical work they also need an EPRA licence. Check both before you sign.",
+   "x_sw": "Wakandarasi wa ujenzi lazima wasajiliwe na NCA. Kwa kazi ya umeme wanahitaji pia leseni ya EPRA. Kagua vyote viwili kabla ya kusaini.",
+   "s": "NCA: local contractors",
+   "u": "https://nca.go.ke/local-contractors"
+  },
+  {
+   "id": "wra-steps",
+   "t": [
+    "pump",
+    "build"
+   ],
+   "k": "Law",
+   "x": "Follow these borehole steps in order. First, get a survey from a registered hydrogeologist. Next, get county and NEMA approval if needed. Then get WRA permission to drill. Use a licensed driller. Get a borehole record and a water test. Last, get the WRA water permit before you pump.",
+   "x_sw": "Fuata hatua hizi za kisima kwa mpangilio. Kwanza, pata uchunguzi kutoka kwa mtaalamu wa maji ardhini aliyesajiliwa. Kisha pata idhini ya kaunti na NEMA ikihitajika. Halafu pata ruhusa ya WRA kuchimba. Tumia mchimbaji mwenye leseni. Pata rekodi ya kisima na kipimo cha maji. Mwisho, pata kibali cha maji cha WRA kabla ya kusukuma maji.",
+   "s": "The Kenya Times: borehole steps",
+   "u": "https://thekenyatimes.com/explainers/borehole-drilling-nema/"
+  },
+  {
+   "id": "wra-permit",
+   "t": [
+    "pump"
+   ],
+   "k": "Law",
+   "x": "A WRA water permit is said to last five years and can be renewed. You must fit a water meter and pay water charges. Pumping without a permit can mean your system is cut off, the works are pulled down at your cost, or you are taken to court. Confirm with WRA.",
+   "x_sw": "Kibali cha maji cha WRA kinasemekana kudumu miaka mitano na kinaweza kuhuishwa. Lazima uweke mita ya maji na ulipe ada za maji. Kusukuma maji bila kibali kunaweza kusababisha mfumo wako ukatwe, kazi zibomolewe kwa gharama yako, au upelekwe mahakamani. Thibitisha na WRA.",
+   "s": "Business Radar: WRA permit guide",
+   "u": "https://businessradar.co.ke/?p=13569"
+  },
+  {
+   "id": "wra-2026",
+   "t": [
+    "pump"
+   ],
+   "k": "Law",
+   "w": 1,
+   "x": "In June 2026 WRA gave borehole owners 30 days to send in their permit and renewal records. WRA also has an app to apply for permits and pay fees, and it is rolling out smart meters. Make sure your records are up to date.",
+   "x_sw": "Mwezi Juni 2026 WRA iliwapa wamiliki wa visima siku 30 kuwasilisha rekodi za vibali na uhuishaji. WRA pia ina programu ya kuomba vibali na kulipa ada, na inaweka mita za kisasa. Hakikisha rekodi zako ni za kisasa.",
+   "s": "KNA: WRA 30-day notice to borehole owners",
+   "u": "https://www.kenyanews.go.ke/government-issues-30-day-notice-for-borehole-operators/"
+  },
+  {
+   "id": "wra-records",
+   "t": [
+    "pump"
+   ],
+   "k": "Practice",
+   "w": 1,
+   "x": "Ask your driller for the borehole record and the pump test results. This app uses the safe water amount from that test. Do not guess it.",
+   "x_sw": "Muulize mchimbaji wako rekodi ya kisima na matokeo ya jaribio la pampu. Programu hii inatumia kiasi salama cha maji kutoka jaribio hilo. Usikisie.",
+   "s": "WRA: water use and allocation",
+   "u": "https://wra.go.ke/water-use-allocation/"
+  },
+  {
+   "id": "green",
+   "t": [
+    "build"
+   ],
+   "k": "Practice",
+   "x": "KGBS gives green ratings to buildings. New national green building rules are still being written, so they are not law yet. Meanwhile, solar, rain water tanks and a smart design save money.",
+   "x_sw": "KGBS hutoa alama za kijani kwa majengo. Sheria mpya za kitaifa za majengo ya kijani bado zinaandikwa, kwa hivyo si sheria bado. Wakati huu, solar, matangi ya maji ya mvua na usanifu mzuri huokoa pesa.",
+   "s": "The Standard: green building rules",
+   "u": "https://standardmedia.co.ke/sports/amp/real-estate/2001531376/why-kenya-is-pushing-for-clear-green-building-guidelines"
+  },
+  {
+   "id": "edge",
+   "t": [
+    "build"
+   ],
+   "k": "Practice",
+   "x": "Government-backed affordable housing is meant to meet the EDGE green standard. EDGE looks at energy, water and materials. The top level, called Advanced, needs at least 40% energy savings. Efficient lights, solar water heating and a rain tank all help.",
+   "x_sw": "Nyumba za bei nafuu zinazoungwa mkono na serikali zinatakiwa kufikia kiwango cha kijani cha EDGE. EDGE huangalia nishati, maji na vifaa. Kiwango cha juu, kinachoitwa Advanced, kinahitaji angalau 40% ya kuokoa nishati. Taa zinazotumia umeme kidogo, hita ya maji ya jua na tangi la mvua vyote husaidia.",
+   "s": "FSD Kenya: EDGE review of a Kenyan housing project",
+   "u": "https://www.fsdkenya.org/wp-content/uploads/2026/01/Update-review-of-the-EDGE-certification-process-Post-audit-affordable-housing-focus-A-case-study-of-Kwangu-Kwako-homes.pdf"
+  },
+  {
+   "id": "rural-homes",
+   "t": [
+    "build"
+   ],
+   "k": "Practice",
+   "x": "FSD Kenya held a webinar in September 2025 on building climate-smart homes for rural families. It looks at what is strong and practical. The slides are free to read.",
+   "x_sw": "FSD Kenya ilifanya mkutano wa mtandaoni Septemba 2025 kuhusu kujenga nyumba zinazostahimili tabianchi kwa familia za vijijini. Unaangalia kilicho imara na cha vitendo. Slaidi ni za bure kusomwa.",
+   "s": "FSD Kenya: climate-smart rural housing slides",
+   "u": "https://www.fsdkenya.org/wp-content/uploads/2025/10/Climate-smart-housing-solutions-for-rural-households-buiding-resilience-and-practicability.pdf"
+  },
+  {
+   "id": "payg",
+   "t": [
+    "solar"
+   ],
+   "k": "Practice",
+   "x": "Many Kenyans buy solar by paying a little each day. FSD Africa backs lenders to small off-grid solar firms, and most of their customers pay this way. Before you sign, use Check an offer to see if the kit can run what you need.",
+   "x_sw": "Wakenya wengi hununua solar kwa kulipa kidogo kila siku. FSD Africa inaunga mkono wakopeshaji wa kampuni ndogo za solar zisizo za gridi, na wateja wao wengi hulipa hivi. Kabla ya kusaini, tumia Kagua ofa kuona kama kifaa kinaweza kuendesha unachohitaji.",
+   "s": "FSD Africa: off-grid solar lending",
+   "u": "https://fsdafrica.org/wp-content/uploads/2025/05/FSD-Africa-Impact-Nithio-13.10.2023.pdf"
+  },
+  {
+   "id": "solar-ready",
+   "t": [
+    "build"
+   ],
+   "k": "Practice",
+   "x": "Make the house ready for solar while you build. Plan a strong roof facing the sun, a spare pipe (conduit) from the roof to the board, space for a battery and inverter, and a place for a solar water heater. It costs little now and a lot later.",
+   "x_sw": "Tayarisha nyumba kwa solar wakati wa kujenga. Panga paa imara linaloelekea jua, bomba la ziada (conduit) kutoka paani hadi kwenye bodi ya umeme, nafasi ya betri na kigeuzi, na mahali pa hita ya maji ya jua. Gharama ni ndogo sasa na kubwa baadaye.",
+   "s": "Fundi Calc advice",
+   "u": ""
+  },
+  {
+   "id": "odpc",
+   "t": [
+    "shop",
+    "inst"
+   ],
+   "k": "Law",
+   "w": 1,
+   "x": "If you keep customers’ phone numbers or quotes, register with the Data Protection Commissioner (ODPC) and ask for their consent first.",
+   "x_sw": "Ukihifadhi nambari za simu au nukuu za wateja, jisajili na ODPC (ofisi ya ulinzi wa data) na uombe ridhaa yao kwanza.",
+   "s": "ODPC: FAQs",
+   "u": "https://www.odpc.go.ke/faqs/"
+  }
+ ]
+}

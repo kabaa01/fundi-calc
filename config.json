@@ -1,0 +1,7 @@
+{
+ "operatorWa": "254729446242X",
+ "till": "5267207",
+ "publicKey": {"crv":"P-256","ext":true,"key_ops":["verify"],"kty":"EC","x":"g-AfsebRMVBerqwR-S8kJyUAoNNYvoocS7M1M62f1RE","y":"bEx2B1MsW8x1ES8R1D9UwXc8pr8ZPN4pIAU49OgZIhg"},
+ "gateAll": false
+}
+
